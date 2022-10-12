@@ -12,7 +12,7 @@ export default function Home() {
         <div className={styles.landingContainer}>
           <div className={styles.landingContent}>
             <div className={styles.landingMain}>
-              <h1 className={styles.landingTagline}>Keeping car detailing simple.</h1>
+              <h1 className={styles.landingTagline}>Keep car detailing simple.</h1>
               <p className={styles.landingText}>Book one of our trained technicians and we'll come to you.</p>
             </div>
             <div className={styles.landingFooter}>

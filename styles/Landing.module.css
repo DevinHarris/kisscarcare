@@ -1,0 +1,40 @@
+.landingContainer {
+    background: url('../public/img/bg-img-5.jpg') center center no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    width: 100vw;
+}
+
+
+.landingContent {
+    padding: 15em;
+}
+
+.landingTagline {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: .1em;
+}
+
+.landingText {
+    color: #fff;
+    margin-top: 1em;
+    font-size: 1.5rem;
+}
+
+.landingFooter {
+    margin-top: auto;
+    align-items: flex-end;
+}
+/* 
+.bgImage {
+    height: 100%;
+    object-fit: contain;
+    width: 100%;
+} */

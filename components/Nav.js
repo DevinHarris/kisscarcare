@@ -1,7 +1,9 @@
+import styles from '../styles/Nav.module.css';
+
 export default function Nav() {
     return (
-        <nav>
-            <h1>Kiss Car Care</h1>
+        <nav className={styles.nav}>
+            <h1 className={styles.logo}>Kiss Car Care</h1>
         </nav>
     )
 

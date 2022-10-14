@@ -20,13 +20,13 @@ export default function Home() {
               <nav className={styles.landingNav}>
                 <ul>
                   <li className={styles.linkActive}>
-                    <Link href="/quote">Get a quote</Link>
+                    <Link href="https://calendly.com/kisscarcare/" target="_blank">Book an Appointment</Link>
                   </li>
                   <li className={styles.footerLink}>
-                    <Link href="/team">Meet our technicians</Link>
+                    <Link href="/team">Meet Our Technicians</Link>
                   </li>
                   <li className={styles.footerLink}>
-                    <Link href="/services">View our services</Link>
+                    <Link href="/services">View Our Services</Link>
                   </li>
                 </ul>
               </nav>

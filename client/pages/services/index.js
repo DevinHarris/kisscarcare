@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from "../../components/Layout";
 import styles from '../../styles/Services.module.css';
 import bgImg from '../../public/img/bg-img-10.jpg';
@@ -21,7 +22,7 @@ export default function ServicesPage() {
                                 <h3></h3>
                             </div>
                             <div className={styles.serviceCTAContainer}>
-                                <a href="https://calendly.com/kisscarcare/" className={styles.serviceCTA}>Book Now</a>
+                                <Link href="https://calendly.com/kisscarcare/" className={styles.serviceCTA}>Book Now</Link>
                             </div>
                         </div>
                     </div>

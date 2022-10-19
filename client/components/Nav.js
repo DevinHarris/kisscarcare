@@ -1,20 +1,22 @@
+import Link from 'next/link'
 import styles from '../styles/Nav.module.css';
+
 
 export default function Nav() {
     return (
             <nav className={styles.nav}>
                 <h1 className={styles.logo}>
-                    <a href="/">Kiss Car Care</a>
+                    <Link href="/">Kiss Car Care</Link>
                 </h1>
                 <ul className={styles.navLinks}>
                     <li className={styles.navLink}>
-                        <a href="/about">About</a>
+                        <Link href="/about">About</Link>
                     </li>
                     <li className={styles.navLink}>
-                        <a href="/services">Services</a>
+                        <Link href="/services">Services</Link>
                     </li>
                     <li className={styles.navLink}>
-                        <a href="/team">Our Team</a>
+                        <Link href="/team">Our Team</Link>
                     </li>
                 </ul>
             </nav>

@@ -1,0 +1,35 @@
+.nav {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 4em;
+    padding: 4em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1000;
+
+}
+
+.logo {
+    align-self: center;
+    /* color: #fff; */
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    margin-right: auto;
+
+}
+
+.navLinks {
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.navLink {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-right: 5em;
+}

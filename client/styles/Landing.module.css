@@ -1,0 +1,89 @@
+.landingContainer {
+    background: url('../public/img/bg-img-6.jpg') center 70% no-repeat;
+    background-size: cover;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    width: 100vw;
+}
+
+
+.landingContent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 15em;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.landingMain {
+
+}
+
+.landingTagline {
+    color: #000;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+
+.landingText {
+    color: #000;
+    margin-top: 1em;
+    font-size: 1.5rem;
+}
+
+.landingFooter {
+    margin-top: auto;
+   
+}
+
+.landingNav ul {
+    display: flex;
+    list-style: none;
+}
+
+.footerLink {
+    background-color: #e4e4e2;
+    border-radius: 1em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 3em;
+    padding: 1em 2em;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.footerLink:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.linkActive {
+    background-color: #000;
+    color: #fff;
+    border-radius: 1em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0 3em;
+    padding: 1em 2em;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+@media all and (max-width: 1300px) {
+    .landingNav ul {
+        flex-direction: column;
+    }
+
+    .footerLink, .link-active {
+        margin-bottom: 1rem;
+    }
+}

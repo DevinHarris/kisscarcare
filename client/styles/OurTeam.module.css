@@ -1,0 +1,88 @@
+.ourTeamPage {
+    overflow-y: hidden;
+}
+
+.teamPageHeader {
+   
+    text-align: center;
+}
+
+.teamPageHeading {
+    font-size: 7rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+}
+
+.teamPageDesc {
+    font-size: 1.5rem;
+    margin: 2em auto;
+    width: 50%;
+}
+
+.teamMembers {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 10em auto;
+    width: 80%;
+}
+
+.profileImg {
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+}
+
+.profileImg:hover {
+    -webkit-transform: translateY(-1em);
+}
+
+.teamMember {
+    max-width: 50em;
+    margin-right: 5em;
+}
+
+.teamMemberName {
+    margin: .5em 0;
+}
+
+.teamMemberDesc {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.teamMemberDesc span {
+    display: block;
+    font-size: 1.2rem;
+    margin: 0.4em 0;
+}
+
+.teamBioLink {
+    font-size: 1.2em;
+    text-decoration: underline;
+    -webkit-transition: all 0.5s ease;
+}
+
+.teamBioLink:hover {
+    text-decoration: none;
+    -webkit-transform: translateX(1em);
+}
+
+@media all and (max-width: 1500px) {
+
+    .teamPageDesc {
+        width: 90%;
+    }
+
+    .teamMembers {
+        flex-direction: column;
+        max-width: 50%;
+        text-align: center;
+    }
+
+    .teamMember {
+        margin-bottom: 3em;
+    }
+}
+

@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Helmet } from 'react-helmet';
 import Link from 'next/link';
 import Layout from '../components/Layout'
+import Nav from '../components/Nav';
 // import styles from '../styles/Home.module.css'
 import styles from '../styles/Landing.module.css';
 import bgImg from '../public/img/bg-img-5.jpg'
@@ -9,26 +11,28 @@ import bgImg from '../public/img/bg-img-5.jpg'
 export default function Home() {
   return (
     <>
-      <Layout title="Kiss Car Care - Keep car detailing simple.">
+      <Helmet>
+        <title>Kiss Car Care - Keep car detailing simple.</title>
+      </Helmet>
+      <Nav />
         <div className={styles.landingContainer}>
           <div className={styles.landingContent}>
             <div className={styles.landingMain}>
-              <h1 className={styles.landingTagline}>Keep car detailing simple.</h1>
-              <p className={styles.landingText}>Book one of our trained technicians and we'll come to you.</p>
+              <div>
+                <h1 className={styles.landingTagline}>Keep car detailing simple.</h1>
+                <p className={styles.landingText}>Book one of our trained technicians and we'll come to you.</p>
+              </div>
+
+              <div className={styles.landingCTA}> 
+                <Link href="https://calendly.com/kisscarcare/" target="_blank">
+                  <a className={styles.linkActive}>Book an Appointment</a>
+                </Link>
+              </div>
+                 
             </div>
-            <footer className={styles.landingFooter}>
-              <nav className={styles.landingNav}>
-                <ul>
-                  <li className={styles.linkActive}>
-                    <Link href="https://calendly.com/kisscarcare/" target="_blank">Book an Appointment</Link>
-                  </li>
-                  
-                </ul>
-              </nav>
-            </footer>
+            
           </div>
         </div>
-      </Layout>
     </>
   )
 }

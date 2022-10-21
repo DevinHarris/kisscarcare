@@ -1,0 +1,6 @@
+.layoutContainer {
+    margin-top: 10em;
+    padding: 4em;
+    width: 100vw;
+    overflow-y: hidden;
+}

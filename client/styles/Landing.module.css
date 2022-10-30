@@ -1,4 +1,4 @@
-.landingContainer {
+.landingHero {
     background: url('../public/img/bg-img-6.jpg') center 70% no-repeat;
     background-size: cover;
     align-items: flex-start;
@@ -96,4 +96,24 @@
     .footerLink, .link-active {
         margin-bottom: 1rem;
     }
+}
+
+.landingSection {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    padding: 10em;
+}
+
+.landingSectionHeading {
+    text-align: center;
+}
+
+.landingSectionHeader {
+    font-size: 4.5rem;
+    margin-bottom: .5em;
+}
+
+.landingSectionSubHeading {
+    font-size: 2rem;
 }

@@ -18,6 +18,9 @@ export default function Nav() {
                     <li className={styles.navLink}>
                         <Link href="/team">Our Team</Link>
                     </li>
+                    <li className={styles.navLink}>
+                        <Link href="/schedule">Book</Link>
+                    </li>
                 </ul>
             </nav>
         

@@ -31,19 +31,6 @@ export default function TeamPage() {
                         </div>
                     </div>
                     <div className={styles.teamMember}>
-                        <Link href="/team/bryan">
-                            <Image src={profileImg3} className={styles.profileImg}/>
-                        </Link>
-                        <h1 className={styles.teamMemberName}>Bryan Shaw</h1>
-                        <div className={styles.teamMemberDesc}>
-                            <span className={styles.teamTitle}>Lead Mold Removal Specialist and Co-Founder</span>
-                            <span className={styles.teamMemberYears}>7 Years of Experience</span>
-                            <Link href="/team/bryan">
-                                <a className={styles.teamBioLink}>View Bio</a>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className={styles.teamMember}>
                        <Link href="/team/devonta">
                             <Image src={profileImg2} className={styles.profileImg}/>
                        </Link>

@@ -1,0 +1,88 @@
+.schedulePage {
+    width: 100%;
+}
+
+.schedulePageHeader {
+    text-align: center;
+}
+
+.schedulePageHeading {
+    font-size: 3.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: .5em;
+    /* text-transform: uppercase; */
+}
+
+.schedulePageHeader p {
+    font-size: 1.5rem;
+}
+
+.customerFormCont {
+    width: 100%;
+}
+
+.customerForm {
+    margin: 10em auto;
+    width: 50%;
+}
+
+.customerFormSection {
+    margin-bottom: 1em;
+}
+
+.formInput {
+    font-size: 1.4rem;
+    padding: 1.5em;
+    text-align: center;
+    width: 90%;
+}
+
+.formAddress {
+    padding: 1.5em;
+    text-align: center;
+    width: 90%;
+}
+
+.formInputVin {
+    font-size: 1.4rem;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 70%;
+}
+
+.vehicleBtn {
+    font-size: 1.4rem;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 20%;
+    -webkit-transition: all 0.5s ease;
+}
+
+.vehicleBtn:hover {
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.bookingBtn {
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    display: block;
+    padding: 1.5em 4em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    max-width: 50%;
+    margin: 3em auto;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+}
+
+.bookingBtn:hover {
+    background-color: #000;
+    color: #fff;
+    -webkit-transform: translateX(1em);
+}

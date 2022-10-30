@@ -15,7 +15,7 @@ export default function Home() {
         <title>Kiss Car Care - Keep car detailing simple.</title>
       </Helmet>
       <Nav />
-        <div className={styles.landingContainer}>
+        <div className={styles.landingHero}>
           <div className={styles.landingContent}>
             <div className={styles.landingMain}>
               <div>
@@ -24,15 +24,22 @@ export default function Home() {
               </div>
 
               <div className={styles.landingCTA}> 
-                <Link href="https://calendly.com/kisscarcare/" target="_blank">
+                <Link href="/schedule" target="_blank">
                   <a className={styles.linkActive}>Book an Appointment</a>
                 </Link>
               </div>
-                 
             </div>
-            
           </div>
         </div>
+        {/* <div className={styles.landingSection}>
+            <div className={styles.landingSectionHeading}>
+                <h1 className={styles.landingSectionHeader}>Convenience right to your drive-way</h1>
+                <p className={styles.landingSectionSubHeading}>Here's what makes us different.</p>
+            </div>
+            <div className={styles.landingSectionMain}>
+              
+            </div>
+        </div> */}
     </>
   )
 }

@@ -13,7 +13,7 @@ export default function CustomerInfo() {
         if (!id) return;
 
         const getCustomerData = async () => {
-            const res = await fetch(`http://localhost:5000/customer/${id}`);
+            const res = await fetch(`https://kisscarcare.herokuapp.com/${id}`);
             console.log(res);
         };
 

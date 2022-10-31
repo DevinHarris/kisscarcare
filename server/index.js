@@ -6,6 +6,7 @@ import dotenv from 'dotenv';
 import helmet from "helmet";
 import connectDB from './connectDB.js';
 import Router from './routes/customers.js';
+import VehicleRouter from './routes/vehicleInfo.js';
 
 const PORT = process.env.PORT || 5000;
 
@@ -36,6 +37,7 @@ app.get('/', (req, res) => {
 })
 
 app.use(Router);
+app.use(VehicleRouter);
 
 app.listen(PORT, () => {
     console.log(`App listening on PORT: ${PORT}`);

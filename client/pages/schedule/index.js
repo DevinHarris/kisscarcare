@@ -22,7 +22,7 @@ export default function SchedulePage() {
         console.log(vinValue.value)
         
         try {
-            const vehicleData = await axios.post('http://localhost:5000/vehicle', {
+            const vehicleData = await axios.post('https://kisscarcare.herokuapp.com/', {
                 vin: vinValue.value
             })
 

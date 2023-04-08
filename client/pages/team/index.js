@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../../components/Layout';
-import profileImg1 from '../../public/img/profile-1.jpg';
+import profileImg1 from '../../public/img/chris.jpg';
 import profileImg2 from '../../public/img/profile-2.jpg';
 import profileImg3 from '../../public/img/profile-3.jpg';
 
@@ -12,7 +12,7 @@ export default function TeamPage() {
     return (
         <Layout title="Our Team - Kiss Car Care">
             <div className={styles.ourTeamPage}>
-                <div class={styles.teamPageHeader}>
+                <div className={styles.teamPageHeader}>
                     <h1 className={styles.teamPageHeading}>Meet our Team</h1>
                     <p className={styles.teamPageDesc}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mollis interdum nisi tristique commodo. Aenean elementum consectetur erat, ut cursus sapien congue sit amet. In imperdiet mi ut ligula sodales tempus. Phasellus dapibus urna tincidunt felis lacinia, sit amet mollis libero fermentum.</p>
                 </div>

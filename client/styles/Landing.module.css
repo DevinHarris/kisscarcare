@@ -1,5 +1,5 @@
 .landingHero {
-    background: url('../public/img/bg-img-6.jpg') center 70% no-repeat;
+    background: url('../public/img/bg-img-14.jpg') center center no-repeat;
     background-size: cover;
     align-items: flex-start;
     display: flex;
@@ -29,14 +29,14 @@
 }
 
 .landingTagline {
-    color: #000;
+    color: #fff;
     font-size: 3rem;
     font-weight: 600;
     letter-spacing: .1em;
 }
 
 .landingText {
-    color: #000;
+    color: #fff;
     margin-top: 1em;
     font-size: 1.5rem;
 }
@@ -64,13 +64,13 @@
 }
 
 .footerLink:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .linkActive {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     /* border-radius: 1em; */
     display: block;
     font-size: 1.3rem;
@@ -83,8 +83,8 @@
 }
 
 .linkActive:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #000;
+    color: #fff;
     -webkit-transform: translateY(-0.5em);
 }
 

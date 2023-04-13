@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Nav from '../components/Nav';
 // import styles from '../styles/Home.module.css'
 import styles from '../styles/Landing.module.css';
-import bgImg from '../public/img/bg-img-5.jpg'
+import bgImg from '../public/img/bg-img-14.jpg'
 
 export default function Home() {
   return (

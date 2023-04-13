@@ -1,0 +1,82 @@
+.profileContainer {
+    margin-top: 8em;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.profileCol {
+    height: 100vh;
+    flex-basis: 50%;
+}
+
+.profileImgContainer {
+    border-radius: 50%;
+    position: relative;
+    height: 30em;
+    overflow: hidden;
+    width: 30em;
+}
+
+.profileImg {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+}
+
+.profileColMeta {
+    margin-top: 10em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.profileCTA {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.profileSocialLinks {
+    list-style: none;
+}
+
+.profileSocialLink a {
+    font-size: 3rem;
+}
+
+.profileBookingCont {
+    margin-top: 4em;
+}
+
+.profileBookingLink {
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .2rem;
+    padding: 1em 4em;
+}
+
+.profileColBio {
+    padding: 10em 3em;
+}
+
+.profileBioHeader {
+    text-align: center;
+}
+
+.profileBioHeader h1 {
+    font-size: 4rem;
+    letter-spacing: .1rem;
+}
+
+.profileBioCont {
+    margin-top: 2em;
+}
+
+.profileBioCont p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
